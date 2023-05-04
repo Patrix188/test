@@ -8,3 +8,7 @@ def index():
 @app.route("/learning/")
 def learning():
     return render_template("learning.jinja.html")
+
+@app.route("/holyShit/")
+def holyshit():
+    return render_template("holyShit.jinja.html")
